@@ -1,0 +1,10 @@
+Apresentação de 15 minutos
+
+Objetivo é mostrar como podemos criar um mindset sobre segurança antes mesmo
+de iniciar o desenvolvimento de projeto/produto.
+
+Falar como integrar a seção no modelo de inception do Paulo Caroli
+
+O que é Threat Modeling, quais são os resultados esperados?
+
+Quero fazer essa seção com o meu time, o que eu preciso, como facilitar?
