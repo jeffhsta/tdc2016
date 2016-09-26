@@ -1,0 +1,17 @@
+Apresentação de 50 minutos
+
+Objetivo é falar de práticas e técnicas que pode ser utilizas pelo time para
+garantir uma maior segurança no projeto/produto que está sendo desenvolvido.
+
+Mas porque na trilha de web e não na de testes por exemplo?
+
+Porque ainda não temos uma trilha sobre segurança assim como temos
+sobre testes?
+
+Porque segurança não é somente responsabilidade de testers/QAs, também é do
+desenvolvedor, assim como criar testes e pensar em qualidade.
+
+Não entendo de segurança, como faço?
+
+* Jeff's blog (https://jeffhsta.github.io/blog)
+* security guide for developers (https://github.com/jeffhsta/security-guide-for-developers)
