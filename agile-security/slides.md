@@ -2,9 +2,42 @@
 
 <hr />
 <h4 class="nickname subtitle">Jeff Stachelski - <span>@jeffhsta</span></h4>
-<h4 class="nickname subtitle">Waldemar Neto - <span>@waldema</span></h4>
+<h4 class="nickname subtitle">Waldemar Neto - <span>@waldemarnt</span></h4>
 
 Note: apresentação
+
+---
+
+## Agile Security
+
+- Mindset de segurança em um ambiente ágil
+
+---
+
+## Porque?
+
+- Aplicação
+ - Pacote
+ - Auditoria externa
+ - Cloud computing
+- Desenvolvimento
+ - Senhas fracas
+ - 2FA
+ - GPG
+ - Git
+ - Conhecimentos de autenticação
+
+---
+
+## Git e GPG
+
+---
+
+## Segredos compartilhados
+
+- pass
+- Vault
+- 1Password for teams
 
 ---
 
@@ -21,38 +54,11 @@ Note: apresentação
 ## Autenticação
 
 - Baseada em HTML form
-- Basic authentication
 - Mais de um fator de autenticação
-
----
-
-## Gerenciamento de reset de senhas
-
----
-
-## Autorização
-
-- Token based Authorization
-- OAuth2
-
----
-
-## Validação de dados de entrada
-
-- Validar e sanitizar os dados de entrada
-- Sanitizar os dados de saída
-- Cross Site Scripting
-- Injection Attacks
-- Uploads
-- Tamper-proof
-
----
-
-## Criptografia e Hashing
-
-- Plaintext != Encoding != Encryption != Hashing
-- Criptografia
-- Hashing
+- Baseadas em token
+ - Basic
+ - JWT
+ - OAuth2
 
 ---
 
@@ -63,41 +69,16 @@ Note: apresentação
 - Armazenando senhas
 - Vida sem senhas
 
----
-
-## Sessões
-
-- Lembre de mim
-- Onde salvar estatus de sessão
-- Invalidando sessões
-- Cookie monster
+note: Waldemar
 
 ---
 
-## Corrigindo HTTP headers
+## Criptografia e Hashing
 
-- Um header de cada vez
-- Mais seguros com headers
+- Plaintext != Encoding != Encryption != Hashing
+ - Criptografia
+ - Hashing
 
----
-
-## Falhas em configurações
-
-- Esqueci o debug com TRUE
-- Monitoramento
-- Principle of least privilege (verificar se é válido falar sobre)
-- Rate limiting & Captchas (verificar se é válido falar sobre)
-- Senhas e segredos de projeto em arquivos
-- Patching e Updates
-
----
-
-## Quando um ataque acontece
-
-- Clickjacking
-- Cross Site Request Forgery (CSRF)
-- Denial of Service (DoS)
-- Server Side Request Forgery (SSRF)
 
 ---
 
@@ -112,10 +93,78 @@ Note: apresentação
 
 ---
 
+## Gerenciamento de reset de senhas
+
+note: Waldemar até aqui
+
+---
+
+## Validação de dados de entrada
+
+- Validar e sanitizar os dados de entrada
+- Sanitizar os dados de saída
+- Cross Site Scripting
+- Injection Attacks
+- Uploads
+- Tamper-proof
+
+---
+
+## Corrigindo HTTP headers
+
+- Um header de cada vez
+- Mais seguros com headers
+
+---
+
+## Sessões
+
+- Lembre de mim
+- Onde salvar estatus de sessão
+- Invalidando sessões
+- Cookie monster
+
+---
+
+## Quando um ataque acontece
+
+- Clickjacking
+- Cross Site Request Forgery (CSRF)
+- Denial of Service (DoS)
+- Server Side Request Forgery (SSRF)
+- CORS
+
+---
+
+## Falhas em configurações
+
+- Esqueci o debug com TRUE
+- Monitoramento
+- Principle of least privilege (verificar se é válido falar sobre)
+- Rate limiting & Captchas (verificar se é válido falar sobre)
+- Senhas e segredos de projeto em arquivos
+- Patching e Updates
+
+---
+
+## Penetesting
+
+- Elevation of privelege
+
+---
+
 ## Continuous Security hygiene
 
 - Mantenha sempre os padrões de segurança
 - Segurança vs Usabilidade
+
+---
+
+## Threat Modeling
+
+---
+
+## OWASP Cornucopia e EOP
 
 ---
 
