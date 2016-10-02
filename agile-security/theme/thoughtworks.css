@@ -517,3 +517,8 @@ h4.nickname {
   font-style: italic;
   text-transform: lowercase;
 }
+
+div.demo-images > img {
+  display: inline;
+  width: 47%;
+}

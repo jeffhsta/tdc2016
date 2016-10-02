@@ -31,6 +31,38 @@ Note: apresentação
 
 ## Git e GPG
 
+```bash
+$ git config --global --edit
+```
+
+```
+[user]
+  email = jeffhsta@riseup.net
+  name = Jeff Stachelski
+  signingkey = C39C19AC
+
+[commit]
+	gpgsign = true
+
+[rebase]
+	gpgsign = true
+```
+
+---
+
+## Git e GPG
+
+![David commit](images/david-commit.png)
+
+---
+
+## Demo time
+
+<div class="demo-images">
+![Demo](images/demo.jpg)
+![Time](images/time.jpeg)
+</div>
+
 ---
 
 ## Segredos compartilhados
@@ -57,7 +89,7 @@ Note: apresentação
 - Mais de um fator de autenticação
 - Baseadas em token
  - Basic
- - JWT
+ - JWT (JSON Web Token)
  - OAuth2
 
 ---
