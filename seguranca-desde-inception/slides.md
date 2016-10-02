@@ -8,6 +8,30 @@ Note: apresentação
 
 ---
 
+## Inception
+
+---
+
+## Threat Modeling
+
+---
+
+## Resultados
+
+- Arvore de ameaças
+- Overview das possiveis ameaças
+- Priorizar itens a trabalhar
+
+---
+
+## Mas não sou um cybersecurity DEV/QA
+
+---
+
+## Mindset sobre segurança
+
+---
+
 # Muito Obrigado!
 
 <hr />
