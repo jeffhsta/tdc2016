@@ -69,8 +69,6 @@ Note: apresentação
 - Armazenando senhas
 - Vida sem senhas
 
-note: Waldemar
-
 ---
 
 ## Criptografia e Hashing
@@ -78,7 +76,6 @@ note: Waldemar
 - Plaintext != Encoding != Encryption != Hashing
  - Criptografia
  - Hashing
-
 
 ---
 
@@ -103,7 +100,7 @@ note: Waldemar até aqui
 
 - Validar e sanitizar os dados de entrada
 - Sanitizar os dados de saída
-- Cross Site Scripting
+- Cross Site Scripting (XSS)
 - Injection Attacks
 - Uploads
 - Tamper-proof
@@ -115,6 +112,8 @@ note: Waldemar até aqui
 - Um header de cada vez
 - Mais seguros com headers
 
+note: fonte https://wiki.mozilla.org/Security/CSP/Specification
+
 ---
 
 ## Sessões
@@ -123,6 +122,9 @@ note: Waldemar até aqui
 - Onde salvar estatus de sessão
 - Invalidando sessões
 - Cookie monster
+
+note: O webserver deve lembrar do estado da sessão para ter uma maior segurança
+dos dados.
 
 ---
 
