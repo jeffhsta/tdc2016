@@ -58,10 +58,7 @@ $ git config --global --edit
 
 ## Demo time
 
-<div class="demo-images">
-![Demo](images/demo.jpg)
-![Time](images/time.jpeg)
-</div>
+![Demo gif](images/demo-time.gif)
 
 ---
 
@@ -91,6 +88,12 @@ $ git config --global --edit
  - Basic
  - JWT (JSON Web Token)
  - OAuth2
+
+---
+
+## Dois fatores de autenticação no time
+
+![TW team](images/tw-team.png)
 
 ---
 
@@ -148,6 +151,12 @@ note: fonte https://wiki.mozilla.org/Security/CSP/Specification
 
 ---
 
+## Demo time
+
+![Demo gif](images/demo-time2.gif)
+
+---
+
 ## Sessões
 
 - Lembre de mim
@@ -174,16 +183,25 @@ dos dados.
 
 - Esqueci o debug com TRUE
 - Monitoramento
-- Principle of least privilege (verificar se é válido falar sobre)
+- Principle of least privilege
 - Rate limiting & Captchas (verificar se é válido falar sobre)
 - Senhas e segredos de projeto em arquivos
 - Patching e Updates
 
 ---
 
+## Demo time (Docker)
+
+![Demo gif](images/demo-time3.gif)
+
+---
+
 ## Penetesting
 
-- Elevation of privelege
+- OWASP top 10
+- Ferramentas
+ - OWASP ZAP
+ - Burp Suite
 
 ---
 
@@ -199,6 +217,9 @@ dos dados.
 ---
 
 ## OWASP Cornucopia e EOP
+
+- Microsoft Elevation of privelege
+- OWASP Cornucopia
 
 ---
 
