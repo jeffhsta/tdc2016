@@ -142,7 +142,7 @@ note: Waldemar até aqui
 
 ---
 
-## Corrigindo HTTP headers
+## Corrigindo falhas com HTTP headers
 
 - Um header de cada vez
 - Mais seguros com headers
@@ -163,19 +163,36 @@ note: fonte https://wiki.mozilla.org/Security/CSP/Specification
 - Onde salvar estatus de sessão
 - Invalidando sessões
 - Cookie monster
+- Local Storage
 
 note: O webserver deve lembrar do estado da sessão para ter uma maior segurança
 dos dados.
 
 ---
 
-## Quando um ataque acontece
+## Ataques comuns
 
 - Clickjacking
 - Cross Site Request Forgery (CSRF)
 - Denial of Service (DoS)
 - Server Side Request Forgery (SSRF)
 - CORS
+
+---
+
+## Evitar Clickjacking
+
+```
+# Disallow embedding. All iframes etc. will be blank, or contain
+# a browser specific error page.
+Content-Security-Policy: frame-ancestors 'none'
+
+# Allow embedding of own content only.
+Content-Security-Policy: frame-ancestors 'self'
+
+# Allow specific origins to embed this content
+Content-Security-Policy: frame-ancestors example.com wikipedia.org
+```
 
 ---
 
