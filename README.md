@@ -33,3 +33,5 @@ desde o desenvolvimento até a produção.
 Nesta palestra vamos ver como adicionar essas práticas no nosso dia a dia para
 que faça parte do nosso processo de desenvolvimento. Vamos conhecer ferramentas
 e práticas para garantir a segurança do nosso fluxo.
+
+## Show né
